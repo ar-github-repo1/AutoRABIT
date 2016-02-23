@@ -47,7 +47,6 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Add Comment</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -55,12 +54,12 @@
     <enableReports>false</enableReports>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Ar-Obj23</label>
+    <label>AR-Accobj1</label>
     <nameField>
-        <label>Ar-Obj23 Name</label>
+        <label>AR-Accobj1 Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Ar-Obj23s</pluralLabel>
+    <pluralLabel>AR-Accobj1s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
