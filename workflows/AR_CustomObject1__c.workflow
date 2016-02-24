@@ -13,7 +13,7 @@
             <operation>equals</operation>
             <value>testworkflowfield3</value>
         </criteriaItems>
-        <description>Add Comment for ARWorkFlow1</description>
+        <description>Add Comment for AR-WorkFlow1</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
             <offsetFromField>AR_CustomObject1__c.LastModifiedDate</offsetFromField>
@@ -29,6 +29,7 @@
             <operation>equals</operation>
             <value>test</value>
         </criteriaItems>
+        <description>Add comment for AR-WorkflowRule2</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
     </rules>
 </Workflow>
