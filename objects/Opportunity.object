@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Customer__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <fullName>Jeff_New_Text_Field__c</fullName>
         <externalId>false</externalId>
-        <label>Customer</label>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Opportunities</relationshipLabel>
-        <relationshipName>Opportunities</relationshipName>
+        <label>Jeff New Text Field</label>
+        <length>25</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>Jeff_Formula_Field1__c</fullName>
-        <externalId>false</externalId>
-        <formula>TrackingNumber__c +  Name</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Jeff Formula Field1</label>
-        <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
