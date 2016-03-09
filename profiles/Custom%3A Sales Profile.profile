@@ -4,6 +4,10 @@
         <apexClass>ARApexClass1</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>ARApexClass2</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -1177,6 +1181,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>AR_CustomObject1__c-AR-CustomObject1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_Custom_object2__c-AR-Custom object2 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
