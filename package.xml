@@ -1,14 +1,68 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>35.0</version>
     <types>
+        <members>ARApexClass1</members>
+        <members>ARApexClass4</members>
+        <members>ArApexClass5</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AR_CustomObject1__c.AR_CustomField1__c</members>
+        <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
+        <members>Account.AutorabitExtId__c</members>
+        <members>Case.AutorabitExtId__c</members>
+        <members>Contact.AutorabitExtId__c</members>
+        <members>Opportunity.Customer__c</members>
+        <members>Opportunity.Jeff_Formula_Field1__c</members>
         <members>Opportunity.Jeff_New_Text_Field__c</members>
         <name>CustomField</name>
     </types>
     <types>
+        <members>AR_CustomLabel1</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>AR_Accobj1__c</members>
+        <members>AR_CustomObject1__c</members>
+        <members>Ar_Obj23__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>AR_Accobj1__c-AR-Accobj1 Layout</members>
+        <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>FeedItem-Feed Item Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
+        <members>Opportunity-Opportunity Layout</members>
         <name>Layout</name>
     </types>
-    <version>35.0</version>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>ContractManager</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>MarketingProfile</members>
+        <members>ReadOnly</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>AR_Accobj1__c</members>
+        <members>AR_CustomObject1__c</members>
+        <members>Ar_Obj23__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>Account.Account_Field_Update</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
 </Package>
