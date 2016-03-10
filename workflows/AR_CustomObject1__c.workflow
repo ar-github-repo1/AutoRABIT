@@ -6,14 +6,8 @@
         <criteriaItems>
             <field>AR_CustomObject1__c.AR_CustomField1__c</field>
             <operation>equals</operation>
-            <value>testworkflowfield1</value>
+            <value>testobject</value>
         </criteriaItems>
-        <criteriaItems>
-            <field>AR_CustomObject1__c.AR_Custom_Field3__c</field>
-            <operation>equals</operation>
-            <value>testworkflowfield3</value>
-        </criteriaItems>
-        <description>Add Comment for AR-WorkFlow1</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
         <workflowTimeTriggers>
             <offsetFromField>AR_CustomObject1__c.LastModifiedDate</offsetFromField>

@@ -82,4 +82,5 @@
     <pluralLabel>AR-CustomObject1s</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <enableSearch>false</enableSearch>
 </CustomObject>
