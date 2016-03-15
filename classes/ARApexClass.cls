@@ -1,9 +1,9 @@
-public Class ARApexClass2
+public Class ARApexClass
 {
 public Account createAccount(String name)  //method to create account
 {
 //Comment1
-//I made a change
+//I made changes
 //comment2
 Account acc112 = new Account();
 acc112.Name = name;
