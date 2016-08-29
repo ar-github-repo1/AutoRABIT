@@ -47,8 +47,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Add comment for AR-CustomObject1.</description>
-    <enableActivities>true</enableActivities>
+    <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -57,44 +56,23 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>AR_CustomField1__c</fullName>
-        <description>Add comment for AR-CustomField1.</description>
+        <fullName>AR4_CustomField__c</fullName>
+        <description>AR4-CustomField</description>
         <externalId>false</externalId>
-        <label>AR-CustomField1</label>
-        <length>35</length>
+        <inlineHelpText>AR4-CustomField</inlineHelpText>
+        <label>AR4-CustomField</label>
+        <length>40</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
-    <fields>
-        <fullName>AR_CustomField_Demo__c</fullName>
-        <description>This is Demonstration with end-to-end process</description>
-        <externalId>false</externalId>
-        <label>AR-CustomField-Demo</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>AR_Custom_Field3__c</fullName>
-        <description>Add Comment for  AR-Custom Field3.</description>
-        <externalId>false</externalId>
-        <label>AR-Custom Field3</label>
-        <length>35</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>AR-CustomObject1</label>
+    <label>AR4-CustomObject</label>
     <nameField>
-        <label>AR-CustomObject1 Name</label>
+        <label>AR4-CustomObject Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>AR-CustomObject1s</pluralLabel>
+    <pluralLabel>AR4-CustomObjects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
