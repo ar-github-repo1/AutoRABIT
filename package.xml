@@ -53,6 +53,7 @@
     </types>
     <types>
         <members>AR4_CustomObject__c.AR4_CustomField__c</members>
+        <members>AR_CustObjDemoCaptialOne__c.AR_CustFieldCaptialOne__c</members>
         <members>AR_CustomObject1__c.AR_CustomField1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField_Demo__c</members>
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
@@ -97,6 +98,7 @@
     </types>
     <types>
         <members>AR4_CustomObject__c</members>
+        <members>AR_CustObjDemoCaptialOne__c</members>
         <members>AR_CustomObject1__c</members>
         <members>AR_Custom_object2__c</members>
         <members>Account</members>
@@ -183,6 +185,7 @@
     </types>
     <types>
         <members>AR4_CustomObject__c-AR4-CustomObject Layout</members>
+        <members>AR_CustObjDemoCaptialOne__c-AR-CustObjDemoCaptialOne Layout</members>
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>AR_Custom_object2__c-AR-Custom object2 Layout</members>
@@ -339,6 +342,7 @@
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
         <members>PlatformPortal</members>
+        <members>ProfileDemo_CaptialOne</members>
         <members>ReadOnly</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
