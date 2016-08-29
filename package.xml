@@ -52,6 +52,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>AR4_CustomObject__c.AR4_CustomField__c</members>
         <members>AR_CustomObject1__c.AR_CustomField1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField_Demo__c</members>
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
@@ -181,6 +182,7 @@
         <name>HomePageLayout</name>
     </types>
     <types>
+        <members>AR4_CustomObject__c-AR4-CustomObject Layout</members>
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>AR_Custom_object2__c-AR-Custom object2 Layout</members>
