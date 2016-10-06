@@ -68,16 +68,19 @@
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
         <members>Account.AR_Custom_Field3_Accounts__c</members>
         <members>Account.Active__c</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
         <members>Account.SLA__c</members>
         <members>Account.UpsellOpportunity__c</members>
+        <members>Case.AutorabitExtId__c</members>
         <members>Case.EngineeringReqNumber__c</members>
         <members>Case.PotentialLiability__c</members>
         <members>Case.Product__c</members>
         <members>Case.SLAViolation__c</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Languages__c</members>
         <members>Contact.Level__c</members>
         <members>Goal.OrigGoalId__c</members>
@@ -87,14 +90,19 @@
         <members>Lead.ProductInterest__c</members>
         <members>Lead.SICCode__c</members>
         <members>Metric.OrigMetricId__c</members>
+        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.Customer__c</members>
         <members>Opportunity.DeliveryInstallationStatus__c</members>
+        <members>Opportunity.Jeff_Formula_Field1__c</members>
+        <members>Opportunity.Jeff_New_Text_Field__c</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Pricebook2.AutorabitExtId__c</members>
         <members>PricebookEntry.AutorabitExtId__c</members>
         <members>Product2.AutorabitExtId__c</members>
+        <members>Test_Object_Create__c.Customer__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -107,6 +115,7 @@
     </types>
     <types>
         <members>AR4_CustomObject__c</members>
+        <members>AR_Accobj1__c</members>
         <members>AR_CustObjDemoCaptialOne__c</members>
         <members>AR_CustomObject1__c</members>
         <members>AR_Custom_object2__c</members>
@@ -114,6 +123,7 @@
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
         <members>Activity</members>
+        <members>Ar_Obj23__c</members>
         <members>Asset</members>
         <members>AssistantProgress</members>
         <members>Campaign</members>
@@ -153,7 +163,9 @@
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
+        <members>Support_Test_Object__c</members>
         <members>Task</members>
+        <members>Test_Object_Create__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <name>CustomObject</name>
@@ -194,6 +206,7 @@
     </types>
     <types>
         <members>AR4_CustomObject__c-AR4-CustomObject Layout</members>
+        <members>AR_Accobj1__c-AR-Accobj1 Layout</members>
         <members>AR_CustObjDemoCaptialOne__c-AR-CustObjDemoCaptialOne Layout</members>
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>AR_CustomObject1__c-AR-Layout1</members>
@@ -202,6 +215,7 @@
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
+        <members>Ar_Obj23__c-Ar-Obj23 Layout</members>
         <members>Asset-Asset Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
@@ -240,7 +254,9 @@
         <members>SocialPersona-Social Persona Layout</members>
         <members>SocialPost-Social Post Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Support_Test_Object__c-Support Test Object Layout</members>
         <members>Task-Task Layout</members>
+        <members>Test_Object_Create__c-Test Object Create Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
@@ -444,11 +460,31 @@
         <name>Settings</name>
     </types>
     <types>
+        <members>AR_Accobj1__c</members>
+        <members>AR_CustomObject1__c</members>
+        <members>Ar_Obj23__c</members>
+        <members>Support_Test_Object__c</members>
+        <members>Test_Object_Create__c</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
+    </types>
+    <types>
+        <members>AR_Accobj1__c</members>
+        <members>AR_CustomObject1__c</members>
+        <members>Ar_Obj23__c</members>
+        <members>Support_Test_Object__c</members>
+        <members>Test_Object_Create__c</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>Account.Account_Field_Update</members>
+        <name>WorkflowFieldUpdate</name>
     </types>
     <types>
         <members>AR_CustomObject1__c.AR-WorkFlow1</members>

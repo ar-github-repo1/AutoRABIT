@@ -47,52 +47,32 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Add comment for AR-CustomObject1.</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>AR_CustomField1__c</fullName>
+        <fullName>Customer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
-        <label>AR-CustomField1</label>
-        <length>30</length>
+        <label>Customer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Test Objects Create</relationshipLabel>
+        <relationshipName>Test_Objects_Create</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
+        <type>Lookup</type>
     </fields>
-    <fields>
-        <fullName>AR_CustomField_Demo__c</fullName>
-        <description>This is Demonstration with end-to-end process</description>
-        <externalId>false</externalId>
-        <label>AR-CustomField-Demo</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>AR_Custom_Field3__c</fullName>
-        <externalId>false</externalId>
-        <label>AR-Custom Field3</label>
-        <length>30</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>AR-CustomObject1</label>
+    <label>Test Object Create</label>
     <nameField>
-        <label>AR-CustomObject1 Name</label>
+        <label>Test Object Create Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>AR-CustomObject1s</pluralLabel>
+    <pluralLabel>Test Objects Create</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
