@@ -2,9 +2,18 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>37.0</version>
     <types>
+        <members>ARApexACclass2</members>
         <members>ARApexClass</members>
         <members>ARApexClass1</members>
         <members>ARApexClass2</members>
+        <members>ARApexClass4</members>
+        <members>ARApexClassUAT</members>
+        <members>ARApexClassUAT2</members>
+        <members>ARApexclass12</members>
+        <members>ARApexclass13</members>
+        <members>ARApexclass15</members>
+        <members>ARSApexclass4</members>
+        <members>ArApexClass5</members>
         <members>TAFApexClass</members>
         <name>ApexClass</name>
     </types>
