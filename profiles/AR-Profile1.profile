@@ -88,6 +88,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>AR_Illumina_Obj__c.AR_Illumina_CustField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Account.AR_Custom_Field3_Accounts__c</field>
         <readable>false</readable>
@@ -1364,6 +1369,30 @@
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_CustObjDominion__c-AR-CustObjDominion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR4_CustomObject__c-AR4-CustomObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_CustomObj_VeriMatrixDemo__c-AR-CustomObj-VeriMatrixDemo Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustObj_Imperial__c-CustObj-Imperial Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_Illumina_Obj__c-AR-Illumina-Obj Layout</layout>
+    </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AR_CustObjDominion__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

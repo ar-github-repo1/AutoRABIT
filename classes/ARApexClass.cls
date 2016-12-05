@@ -2,7 +2,7 @@ public Class ARApexClass
 {
 public Account createAccount(String name)  //method to create account
 {
-//Demo for Imperial Team for large implementation
+//Demo for Illumina Team for large implementation
 //Comment1 with some more info
 //More changes here
 //comment2

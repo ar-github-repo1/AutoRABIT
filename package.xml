@@ -57,6 +57,8 @@
         <members>AR_CustomObject1__c.AR_CustomField1__c</members>
         <members>AR_CustomObject1__c.AR_CustomField_Demo__c</members>
         <members>AR_CustomObject1__c.AR_Custom_Field3__c</members>
+        <members>AR_Illumina_Obj__c.AR_Illumina_CustField__c</members>
+        <members>AR_webinar_Object__c.webinar_cust_field__c</members>
         <members>Account.AR_Custom_Field3_Accounts__c</members>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
@@ -101,6 +103,8 @@
         <members>AR_CustObjDemoCaptialOne__c</members>
         <members>AR_CustomObject1__c</members>
         <members>AR_Custom_object2__c</members>
+        <members>AR_Illumina_Obj__c</members>
+        <members>AR_webinar_Object__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
@@ -189,6 +193,8 @@
         <members>AR_CustomObject1__c-AR-CustomObject1 Layout</members>
         <members>AR_CustomObject1__c-AR-Layout1</members>
         <members>AR_Custom_object2__c-AR-Custom object2 Layout</members>
+        <members>AR_Illumina_Obj__c-AR-Illumina-Obj Layout</members>
+        <members>AR_webinar_Object__c-AR-webinar-Object Layout</members>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
