@@ -2,68 +2,14 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <classAccesses>
         <apexClass>ARApexClass</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>ARApexclass13</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <custom>true</custom>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR4_CustomObject__c.AR4_CustomField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR4_CustomObject__c.AR_CF_WesternUnionDemo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR_CustObjDominion__c.AR_CustFieldDominion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR_CustObjHoneywell__c.AR_CustFieldHoneywell__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR_CustObj_PTCDemo__c.AR_CustField_PTC__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>AR_CustObj_Sunrun__c.CustField_Sunrun__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR_CustomObject1__c.AR_CustomField_Demo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AR_Illumina_Obj__c.AR_Illumina_CustField__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <layoutAssignments>
-        <layout>AR_CustObjHoneywell__c-AR-CustObjHoneywell Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_CustObjDominion__c-AR-CustObjDominion Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR4_CustomObject__c-AR4-CustomObject Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_CustObj_PTCDemo__c-AR-CustObj-PTCDemo Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>AR_Illumina_Obj__c-AR-Illumina-Obj Layout</layout>
-    </layoutAssignments>
     <layoutAssignments>
         <layout>AR_CustObj_Sunrun__c-AR-CustObj-Sunrun Layout</layout>
     </layoutAssignments>
@@ -73,25 +19,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>AR4_CustomObject__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
         <object>AR_CustObj_Sunrun__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>false</allowCreate>
-        <allowDelete>false</allowDelete>
-        <allowEdit>false</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>false</modifyAllRecords>
-        <object>AR_Illumina_Obj__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>
@@ -534,6 +462,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ShareInternalArticles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShowCompanyNameAsUserBadge</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

@@ -77,6 +77,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <description>Add comment for  AR-Profile1</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AR4_CustomObject__c.AR_CF_WesternUnionDemo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AR_CustObjDominion__c.AR_CustFieldDominion__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AR_CustObj_Sunrun__c.CustField_Sunrun__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AR_CustomObj_VeriMatrixDemo__c.AR_CustField_VeriMatrix__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>AR_CustomObject1__c.AR_CustomField1__c</field>
@@ -1383,6 +1404,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AR_Illumina_Obj__c-AR-Illumina-Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AR_CustObj_Sunrun__c-AR-CustObj-Sunrun Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
