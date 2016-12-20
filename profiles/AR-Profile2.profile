@@ -7,7 +7,32 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>AR_CustObj_Sunrun__c.CustField_Sunrun__c</field>
+        <field>AR_Custom_object2__c.CustomField2_Demo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AR_Custom_object2__c.CustomField_SchneiderDemo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.AutorabitExtId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AlexObject01__c.Child_Pick__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.AutorabitExtId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.AutorabitExtId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15,8 +40,24 @@
         <field>CustObj_SunTrust__c.CustField_SunTrust__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.AutorabitExtId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
-        <layout>AR_CustObj_Sunrun__c-AR-CustObj-Sunrun Layout</layout>
+        <layout>AlexObject01__c-AlexObject01 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AlexObject01__c-AlexObject01 Layout</layout>
+        <recordType>AlexObject01__c.Alex_Type_01</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AlexObject01__c-AlexObject01 Layout</layout>
+        <recordType>AlexObject01__c.Alex_Type_02</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AutoRabitTrain__c-AutoRabitTrain Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CustObj_SunTrust__c-CustObj_SunTrust Layout</layout>
@@ -27,7 +68,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>AR_CustObj_Sunrun__c</object>
+        <object>AlexObject01__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AutoRabitTrain__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -39,6 +89,20 @@
         <object>CustObj_SunTrust__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>AlexObject01__c.Alex_Type_01</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>AlexObject01__c.Alex_Type_02</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AlexObject01__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -335,10 +399,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageEmailClientConfig</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageEncryptionKeys</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
