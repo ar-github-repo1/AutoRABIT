@@ -49,6 +49,11 @@
         <field>AR_Illumina_Obj__c.AR_Illumina_CustField__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustObjRBIUK__c.CF_RBIUK__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AR_CustObjHoneywell__c-AR-CustObjHoneywell Layout</layout>
     </layoutAssignments>
@@ -66,6 +71,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AR_CustObj_Sunrun__c-AR-CustObj-Sunrun Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustObjRBIUK__c-CustObjRBIUK Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -92,6 +100,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>AR_Illumina_Obj__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CustObjRBIUK__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>

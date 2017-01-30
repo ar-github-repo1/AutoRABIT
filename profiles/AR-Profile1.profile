@@ -800,6 +800,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CustObjRBIUK__c.CF_RBIUK__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CustObj_Imperial__c.CustField_Imperial__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1407,6 +1417,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>AR_CustObj_Sunrun__c-AR-CustObj-Sunrun Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CustObjRBIUK__c-CustObjRBIUK Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
