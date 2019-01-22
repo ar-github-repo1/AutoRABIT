@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldUpdates>
-        <fullName>Account_Field_Update</fullName>
-        <field>AccountSource</field>
-        <name>Account Field Update</name>
+        <fullName>TestFieldUp</fullName>
+        <description>New desc change</description>
+        <field>BillingCity</field>
+        <name>TestFieldUp</name>
         <notifyAssignee>false</notifyAssignee>
-        <operation>NextValue</operation>
+        <operation>Null</operation>
         <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
     </fieldUpdates>
 </Workflow>
