@@ -33,6 +33,10 @@
                 <behavior>Edit</behavior>
                 <field>My_Custom_Field__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>F1__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
