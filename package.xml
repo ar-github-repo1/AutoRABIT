@@ -72,6 +72,7 @@
         <members>Account.Description</members>
         <members>Account.DunsNumber</members>
         <members>Account.F1__c</members>
+        <members>Account.F2__c</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
         <members>Account.Jigsaw</members>
