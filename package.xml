@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>44.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>45.0</version>
     <types>
         <members>A0</members>
         <members>CreateAccount</members>
         <members>CreateAccountTest</members>
         <members>LREngine</members>
         <members>TestLREngine</members>
+        <members>TowerMapControllerClass</members>
+        <members>UtilityClass</members>
         <members>a0testclass</members>
         <name>ApexClass</name>
     </types>
@@ -28,6 +29,11 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>Towermap</members>
+        <members>Towers</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>Case</members>
@@ -632,6 +638,8 @@
         <members>TestCustomObject__c.TestCustomField2__c</members>
         <members>TestCustomObject__c.TestCustomFieldx__c</members>
         <members>TestCustomObject__c.TestCustomfield123__c</members>
+        <members>Tower__c.State__c</members>
+        <members>Tower__c.Tower_Location__c</members>
         <members>TravelSponsor__c.Sponsor_Company__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
@@ -713,6 +721,7 @@
         <members>TestCustomObject__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
+        <members>Tower__c</members>
         <members>TravelSponsor__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
@@ -738,6 +747,7 @@
     <types>
         <members>DemoTest2__c</members>
         <members>Student__c</members>
+        <members>Tower__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -833,6 +843,7 @@
         <members>Student__c-Student Layout</members>
         <members>Task-Task Layout</members>
         <members>TestCustomObject__c-TestCustomObject Layout</members>
+        <members>Tower__c-Tower Layout</members>
         <members>TravelSponsor__c-TravelSponsor Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
@@ -898,6 +909,7 @@
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Student__c.All</members>
+        <members>Tower__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
