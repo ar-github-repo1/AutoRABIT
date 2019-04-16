@@ -8,5 +8,10 @@
         <plural>true</plural>
         <value>companys</value>
     </caseValues>
+    <fields>
+        <help><!-- helpdesign123 --></help>
+        <label><!-- design --></label>
+        <name>design__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

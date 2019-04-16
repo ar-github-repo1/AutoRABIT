@@ -47,21 +47,11 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>HCLDemo__c</fullName>
-        <externalId>false</externalId>
-        <label>HCLDemo</label>
-        <length>255</length>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <fields>
         <fullName>StudentMobile__c</fullName>
         <externalId>false</externalId>
@@ -72,14 +62,14 @@
         <type>Phone</type>
     </fields>
     <fields>
-        <fullName>TestCustomFieldForStudent__c</fullName>
+        <fullName>email__c</fullName>
         <externalId>false</externalId>
-        <label>TestCustomFieldForStudent</label>
-        <length>255</length>
+        <inlineHelpText>hellohelpemail</inlineHelpText>
+        <label>email</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Email</type>
         <unique>false</unique>
     </fields>
     <label>Student</label>

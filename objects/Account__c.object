@@ -3,16 +3,6 @@
     <customSettingsType>Hierarchy</customSettingsType>
     <description>Test</description>
     <enableFeeds>false</enableFeeds>
-    <fields>
-        <fullName>CST__c</fullName>
-        <externalId>false</externalId>
-        <label>CST</label>
-        <length>10</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
     <label>CS Test</label>
     <visibility>Public</visibility>
 </CustomObject>

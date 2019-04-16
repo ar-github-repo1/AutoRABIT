@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>TravelSponsors</value>
     </caseValues>
+    <fields>
+        <label><!-- Sponsor Company --></label>
+        <name>Sponsor_Company__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

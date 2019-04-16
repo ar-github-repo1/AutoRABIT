@@ -16,11 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>TestCustomFieldForStudent__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>HCLDemo__c</field>
+                <field>email__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

@@ -1,25 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>44.0</version>
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>45.0</version>
     <types>
         <members>A0</members>
         <members>CreateAccount</members>
         <members>CreateAccountTest</members>
+        <members>EmailManager</members>
+        <members>EmailManager_Dup1</members>
+        <members>EmailManager_Dup2</members>
+        <members>HelloSalesforce</members>
         <members>LREngine</members>
+        <members>MyHelloWorld</members>
         <members>TestLREngine</members>
+        <members>Welcome</members>
         <members>a0testclass</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Testtrigger</members>
+        <members>RestrictContactByName</members>
         <name>ApexTrigger</name>
     </types>
     <types>
+        <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
     </types>
     <types>
-        <members>Case.AR-Support</members>
         <members>Case.Standard</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
@@ -101,7 +106,6 @@
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
-        <members>Account__c.CST__c</members>
         <members>Asset.AccountId</members>
         <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
@@ -251,6 +255,14 @@
         <members>Contact.Phone</members>
         <members>Contact.ReportsToId</members>
         <members>Contact.Title</members>
+        <members>ContactRequest.OwnerId</members>
+        <members>ContactRequest.PreferredChannel</members>
+        <members>ContactRequest.PreferredPhone</members>
+        <members>ContactRequest.RequestDescription</members>
+        <members>ContactRequest.RequestReason</members>
+        <members>ContactRequest.Status</members>
+        <members>ContactRequest.WhatId</members>
+        <members>ContactRequest.WhoId</members>
         <members>ContentVersion.ContentSize</members>
         <members>ContentVersion.Description</members>
         <members>ContentVersion.FileExtension</members>
@@ -379,8 +391,6 @@
         <members>DandBCompany.UsTaxId</members>
         <members>DandBCompany.WomenOwned</members>
         <members>DandBCompany.YearStarted</members>
-        <members>Deloitte_Obj__c.Deloitte_Obj__c</members>
-        <members>Deloitte_Obj__c.QT__c</members>
         <members>Demo_Test_Obj__c.Demo_Field1__c</members>
         <members>DuplicateRecordItem.DuplicateRecordSetId</members>
         <members>DuplicateRecordItem.RecordId</members>
@@ -409,6 +419,7 @@
         <members>EmailMessage.ValidatedFromAddress</members>
         <members>Event.ActivityDate</members>
         <members>Event.ActivityDateTime</members>
+        <members>Event.Attendees</members>
         <members>Event.Description</members>
         <members>Event.DurationInMinutes</members>
         <members>Event.Email</members>
@@ -429,8 +440,19 @@
         <members>Event.WhoId</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
+        <members>Image.CapturedAngle</members>
+        <members>Image.ContentDocumentId</members>
+        <members>Image.ImageAlternateText</members>
+        <members>Image.ImageClass</members>
+        <members>Image.ImageClassObjectType</members>
+        <members>Image.ImageTitle</members>
+        <members>Image.ImageUrl</members>
+        <members>Image.ImageViewType</members>
+        <members>Image.IsActive</members>
+        <members>Image.Name</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
+        <members>Lead.AutorabitExtId__c</members>
         <members>Lead.CampaignId</members>
         <members>Lead.CleanStatus</members>
         <members>Lead.Company</members>
@@ -453,7 +475,6 @@
         <members>Lead.NumberOfEmployees</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.OwnerId</members>
-        <members>Lead.PFQ__c</members>
         <members>Lead.Phone</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
@@ -532,6 +553,7 @@
         <members>Order.PoNumber</members>
         <members>Order.ShipToContactId</members>
         <members>Order.ShippingAddress</members>
+        <members>Order.Status</members>
         <members>Order.TotalAmount</members>
         <members>Order.Type</members>
         <members>OrderItem.AvailableQuantity</members>
@@ -573,11 +595,19 @@
         <members>QuickText.Message</members>
         <members>QuickText.Name</members>
         <members>QuickText.OwnerId</members>
+        <members>Recommendation.AcceptanceLabel</members>
+        <members>Recommendation.ActionReference</members>
+        <members>Recommendation.Description</members>
+        <members>Recommendation.ImageId</members>
+        <members>Recommendation.IsActionActive</members>
+        <members>Recommendation.Name</members>
+        <members>Recommendation.RejectionLabel</members>
         <members>RecordAction.ActionDefinition</members>
         <members>RecordAction.ActionType</members>
         <members>RecordAction.FlowDefinition</members>
         <members>RecordAction.FlowInterviewId</members>
         <members>RecordAction.IsMandatory</members>
+        <members>RecordAction.IsUiRemoveHidden</members>
         <members>RecordAction.Order</members>
         <members>RecordAction.Pinned</members>
         <members>RecordAction.RecordId</members>
@@ -604,9 +634,8 @@
         <members>Solution.SolutionName</members>
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
-        <members>Student__c.HCLDemo__c</members>
         <members>Student__c.StudentMobile__c</members>
-        <members>Student__c.TestCustomFieldForStudent__c</members>
+        <members>Student__c.email__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -627,7 +656,6 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
-        <members>TestCustomObject__c.TestCustomField2__c</members>
         <members>TestCustomObject__c.TestCustomFieldx__c</members>
         <members>TestCustomObject__c.TestCustomfield123__c</members>
         <members>TravelSponsor__c.Sponsor_Company__c</members>
@@ -643,7 +671,8 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
-        <members>Vehicle__c.Color__c</members>
+        <members>Vehicle__c.Engine__c</members>
+        <members>Vehicle__c.Model__c</members>
         <members>company__c.design__c</members>
         <name>CustomField</name>
     </types>
@@ -665,11 +694,11 @@
         <members>CollaborationGroupMember</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
+        <members>ContactRequest</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
         <members>DandBCompany</members>
-        <members>Deloitte_Obj__c</members>
         <members>DemoTest2__c</members>
         <members>Demo_Test_Obj__c</members>
         <members>DuplicateRecordItem</members>
@@ -680,6 +709,7 @@
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
         <members>Idea</members>
+        <members>Image</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
@@ -698,6 +728,7 @@
         <members>PricebookEntry</members>
         <members>Product2</members>
         <members>QuickText</members>
+        <members>Recommendation</members>
         <members>RecordAction</members>
         <members>Scorecard</members>
         <members>ScorecardAssociation</members>
@@ -721,7 +752,6 @@
     </types>
     <types>
         <members>Account__c-en_US</members>
-        <members>Deloitte_Obj__c-en_US</members>
         <members>DemoTest2__c-en_US</members>
         <members>Demo_Test_Obj__c-en_US</members>
         <members>Pen__c-en_US</members>
@@ -734,7 +764,6 @@
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>DemoTest2__c</members>
         <members>Student__c</members>
         <name>CustomTab</name>
     </types>
@@ -773,7 +802,7 @@
         <name>HomePageLayout</name>
     </types>
     <types>
-        <members>sf_com_apps</members>
+        <members>Field_Trip</members>
         <name>InstalledPackage</name>
     </types>
     <types>
@@ -797,16 +826,13 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
-        <members>Deloitte_Obj__c-Deloitte Obj Layout</members>
         <members>DemoTest2__c-DemoTest2 Layout</members>
         <members>Demo_Test_Obj__c-Demo Test Obj Layout</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
         <members>Event-Event Layout</members>
-        <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
         <members>Idea-Idea Layout</members>
-        <members>Lead-Changes1</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
@@ -864,6 +890,7 @@
         <members>Contact.MyContacts</members>
         <members>Contact.NewLastWeek</members>
         <members>Contact.NewThisWeek</members>
+        <members>ContactRequest.My_ContactRequests</members>
         <members>Contract.AllActivatedContracts</members>
         <members>Contract.AllContracts</members>
         <members>Contract.AllDraftContracts</members>
@@ -928,7 +955,6 @@
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
-        <members>MT Group Profile</members>
         <members>MarketingProfile</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
@@ -942,14 +968,6 @@
         <members>Traf2</members>
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
-    </types>
-    <types>
-        <members>MT_Group_Profile_profilePasswordPolicy1528787392723</members>
-        <name>ProfilePasswordPolicy</name>
-    </types>
-    <types>
-        <members>MT_Group_Profile_profileSessionSetting1528787392777</members>
-        <name>ProfileSessionSetting</name>
     </types>
     <types>
         <members>Case.NewChildCase</members>
@@ -1043,7 +1061,6 @@
         <members>Campaign</members>
         <members>Case</members>
         <members>Contact</members>
-        <members>Deloitte_Obj__c</members>
         <members>DemoTest2__c</members>
         <members>Demo_Test_Obj__c</members>
         <members>FlowInterview</members>
@@ -1107,10 +1124,6 @@
         <name>StandardValueSet</name>
     </types>
     <types>
-        <members>srnew</members>
-        <name>StaticResource</name>
-    </types>
-    <types>
         <members>Account</members>
         <members>Asset</members>
         <members>Campaign</members>
@@ -1118,10 +1131,11 @@
         <members>Contact</members>
         <members>ContentDocument</members>
         <members>Contract</members>
-        <members>Deloitte_Obj__c</members>
         <members>DemoTest2__c</members>
         <members>Demo_Test_Obj__c</members>
         <members>Event</members>
+        <members>Field_Trip__Field_Analysis__c</members>
+        <members>Field_Trip__Object_Analysis__c</members>
         <members>Lead</members>
         <members>Opportunity</members>
         <members>Order</members>

@@ -8,5 +8,14 @@
         <plural>true</plural>
         <value>Students</value>
     </caseValues>
+    <fields>
+        <label><!-- StudentMobile --></label>
+        <name>StudentMobile__c</name>
+    </fields>
+    <fields>
+        <help><!-- hellohelpemail --></help>
+        <label><!-- email --></label>
+        <name>email__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

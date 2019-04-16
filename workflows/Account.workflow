@@ -2,7 +2,7 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <fieldUpdates>
         <fullName>TestFieldUp</fullName>
-        <description>New desc change</description>
+        <description>New desc</description>
         <field>BillingCity</field>
         <name>TestFieldUp</name>
         <notifyAssignee>false</notifyAssignee>

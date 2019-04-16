@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>AR-Support</fullName>
-        <active>false</active>
-    </assignmentRule>
-    <assignmentRule>
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>ardev@whiteboard.com</assignedTo>
+            <assignedTo>arprod@whiteboard.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -27,7 +23,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ardev@whiteboard.com</assignedTo>
+            <assignedTo>arprod@whiteboard.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -46,7 +42,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ardev@whiteboard.com</assignedTo>
+            <assignedTo>arprod@whiteboard.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -65,7 +61,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ardev@whiteboard.com</assignedTo>
+            <assignedTo>arprod@whiteboard.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -84,7 +80,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>ardev@whiteboard.com</assignedTo>
+            <assignedTo>arprod@whiteboard.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>

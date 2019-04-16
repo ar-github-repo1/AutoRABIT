@@ -8,5 +8,15 @@
         <plural>true</plural>
         <value>Vehicles</value>
     </caseValues>
+    <fields>
+        <help><!-- Engine123 --></help>
+        <label><!-- Engine --></label>
+        <name>Engine__c</name>
+    </fields>
+    <fields>
+        <help><!-- Model123456 --></help>
+        <label><!-- Model --></label>
+        <name>Model__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

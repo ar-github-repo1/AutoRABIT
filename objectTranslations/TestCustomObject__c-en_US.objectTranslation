@@ -8,5 +8,14 @@
         <plural>true</plural>
         <value>TestCustomObjects</value>
     </caseValues>
+    <fields>
+        <help><!-- helpneeded1 --></help>
+        <label><!-- TestCustomField --></label>
+        <name>TestCustomFieldx__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestCustomfield123 --></label>
+        <name>TestCustomfield123__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

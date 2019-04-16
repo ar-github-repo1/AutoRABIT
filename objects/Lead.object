@@ -84,6 +84,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>AutorabitExtId__c</fullName>
+        <description>External Id created by AutoRABIT</description>
+        <externalId>true</externalId>
+        <label>AutorabitExtId__c</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <type>Lookup</type>
     </fields>
@@ -192,40 +203,6 @@
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PFQ__c</fullName>
-        <externalId>false</externalId>
-        <label>PFQ</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>10</fullName>
-                    <default>false</default>
-                    <label>10</label>
-                </value>
-                <value>
-                    <fullName>20</fullName>
-                    <default>false</default>
-                    <label>20</label>
-                </value>
-                <value>
-                    <fullName>30</fullName>
-                    <default>false</default>
-                    <label>30</label>
-                </value>
-                <value>
-                    <fullName>40</fullName>
-                    <default>false</default>
-                    <label>40</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
     </fields>
     <fields>
         <fullName>Phone</fullName>
